@@ -34,5 +34,22 @@ tis_d <- read_excel("C:/R/Git_project/geostat_zutica/geostat/TIS_D_Zutica.xlsx",
                                   "numeric", "numeric", "numeric", "numeric", "numeric",
                                   "numeric"))
 
+tarife <- read_excel("C:/R/Git_project/geostat_zutica/geostat/Tarife_zutica.xlsx",
+                     sheet = "Tarife",
+                     col_names = c("Gj", "God1", "Vrsta", "Tarifa", "Redni_br",
+                                   "Autor", "Oznaka", "T0", "T1", "T2", "T3", "T4",
+                                   "T5", "T6", "T7", "T8", "T9", "T10", "T11",
+                                   "T12", "T13", "T14", "T15", "T16", "T17",
+                                   "T18", "UserName", "DateTime"),
+                     skip = 1,
+                     col_types = c("numeric", "numeric", "numeric", "numeric",
+                                   "text", "text", "text",
+                                   "numeric", "numeric", "numeric", "numeric",
+                                   "numeric", "numeric", "numeric", "numeric", "numeric",
+                                   "numeric", "numeric", "numeric", "numeric", "numeric",
+                                   "numeric", "numeric", "numeric", "numeric", "numeric",
+                                   "text", "date"))                     
+
 glimpse(tis_k)
 glimpse(tis_d)
+glimpse(tarife)
