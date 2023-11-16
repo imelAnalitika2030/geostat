@@ -88,3 +88,14 @@ glimpse(tis_d)
 glimpse(tarife)
 ```
 
+```{r}
+
+ggplot(tis_d, aes(x=Vrsta))+
+  geom_histogram()
+
+```
+
+
+```{r}
+```
+
