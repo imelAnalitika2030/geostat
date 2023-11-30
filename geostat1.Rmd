@@ -94,7 +94,7 @@ ggplot(tis_d, aes(x=Vrsta))+
   geom_histogram()
 
 ```
-
+Little text to veryfy GIT from work
 
 ```{r}
 ```
